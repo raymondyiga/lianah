@@ -448,3 +448,41 @@ img{
     right: 10%;
   }
 }
+/*-----Photos Button---*/
+.here-btn{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: #0073cf;
+    position: absolute;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.here-btn:hover{
+    border-radius: 10px;
+    transition: 0.3s;
+     color: #fff;
+  transform: scale(1.05); 
+}
+
+/*-----Video Gallery-------*/
+.vid-container{
+    background-color: white;
+}
+.vid{
+    padding-left: 10px;
+    
+}
+vid h1{
+    text-align: center;
+}
+@media screen and (min-width: 1024px){
+    .vid{
+    padding-left: 40px;
+    
+}
+}
